@@ -15,6 +15,12 @@
 		7EC20B761FC1B6E600A95658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC20B741FC1B6E600A95658 /* LaunchScreen.storyboard */; };
 		7EC20B811FC1B6E600A95658 /* MineTableView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC20B801FC1B6E600A95658 /* MineTableView_____Tests.m */; };
 		7EC20B8C1FC1B6E600A95658 /* MineTableView_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC20B8B1FC1B6E600A95658 /* MineTableView_____UITests.m */; };
+		7EC20B9C1FC1DDFF00A95658 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC20B9A1FC1DDFF00A95658 /* SecondViewController.m */; };
+		7EC20B9D1FC1DDFF00A95658 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC20B9B1FC1DDFF00A95658 /* SecondViewController.xib */; };
+		7EC20BA11FC1E00000A95658 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC20B9F1FC1E00000A95658 /* BaseTableViewCell.m */; };
+		7EC20BA21FC1E00000A95658 /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC20BA01FC1E00000A95658 /* BaseTableViewCell.xib */; };
+		7EC20BA51FC1E39D00A95658 /* QXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC20BA41FC1E39D00A95658 /* QXUser.m */; };
+		7EC20BA81FC1E98E00A95658 /* MineDataArrayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC20BA71FC1E98E00A95658 /* MineDataArrayManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		7EC20B871FC1B6E600A95658 /* MineTableView耦合性练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MineTableView耦合性练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC20B8B1FC1B6E600A95658 /* MineTableView_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MineTableView_____UITests.m"; sourceTree = "<group>"; };
 		7EC20B8D1FC1B6E600A95658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC20B991FC1DDFF00A95658 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7EC20B9A1FC1DDFF00A95658 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7EC20B9B1FC1DDFF00A95658 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		7EC20B9E1FC1E00000A95658 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		7EC20B9F1FC1E00000A95658 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		7EC20BA01FC1E00000A95658 /* BaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		7EC20BA31FC1E39D00A95658 /* QXUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXUser.h; sourceTree = "<group>"; };
+		7EC20BA41FC1E39D00A95658 /* QXUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXUser.m; sourceTree = "<group>"; };
+		7EC20BA61FC1E98E00A95658 /* MineDataArrayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineDataArrayManager.h; sourceTree = "<group>"; };
+		7EC20BA71FC1E98E00A95658 /* MineDataArrayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineDataArrayManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +121,17 @@
 				7EC20B6A1FC1B6E600A95658 /* AppDelegate.m */,
 				7EC20B6C1FC1B6E600A95658 /* ViewController.h */,
 				7EC20B6D1FC1B6E600A95658 /* ViewController.m */,
+				7EC20B991FC1DDFF00A95658 /* SecondViewController.h */,
+				7EC20B9A1FC1DDFF00A95658 /* SecondViewController.m */,
+				7EC20B9B1FC1DDFF00A95658 /* SecondViewController.xib */,
 				7EC20B6F1FC1B6E600A95658 /* Main.storyboard */,
+				7EC20B9E1FC1E00000A95658 /* BaseTableViewCell.h */,
+				7EC20B9F1FC1E00000A95658 /* BaseTableViewCell.m */,
+				7EC20BA01FC1E00000A95658 /* BaseTableViewCell.xib */,
+				7EC20BA31FC1E39D00A95658 /* QXUser.h */,
+				7EC20BA41FC1E39D00A95658 /* QXUser.m */,
+				7EC20BA61FC1E98E00A95658 /* MineDataArrayManager.h */,
+				7EC20BA71FC1E98E00A95658 /* MineDataArrayManager.m */,
 				7EC20B721FC1B6E600A95658 /* Assets.xcassets */,
 				7EC20B741FC1B6E600A95658 /* LaunchScreen.storyboard */,
 				7EC20B771FC1B6E600A95658 /* Info.plist */,
@@ -246,6 +272,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC20B9D1FC1DDFF00A95658 /* SecondViewController.xib in Resources */,
+				7EC20BA21FC1E00000A95658 /* BaseTableViewCell.xib in Resources */,
 				7EC20B761FC1B6E600A95658 /* LaunchScreen.storyboard in Resources */,
 				7EC20B731FC1B6E600A95658 /* Assets.xcassets in Resources */,
 				7EC20B711FC1B6E600A95658 /* Main.storyboard in Resources */,
@@ -273,6 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC20BA11FC1E00000A95658 /* BaseTableViewCell.m in Sources */,
+				7EC20BA51FC1E39D00A95658 /* QXUser.m in Sources */,
+				7EC20B9C1FC1DDFF00A95658 /* SecondViewController.m in Sources */,
+				7EC20BA81FC1E98E00A95658 /* MineDataArrayManager.m in Sources */,
 				7EC20B6E1FC1B6E600A95658 /* ViewController.m in Sources */,
 				7EC20B6B1FC1B6E600A95658 /* AppDelegate.m in Sources */,
 				7EC20B681FC1B6E600A95658 /* main.m in Sources */,
